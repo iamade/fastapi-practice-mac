@@ -13,3 +13,6 @@ uvicorn main:app --reload
 cat cat
 
 Gm5TZBif_KSKKm53UV2c7F1kpfTh8gmjq7BCqUzcL
+
+
+conda config --set auto_activate_base false  deactivate konda

@@ -9,7 +9,7 @@ class Article(BaseModel):
     class Config():
         orm_mode = True
 
-class UserBase(BaseModel):
+class  UserBase(BaseModel):
     username: str
     email: str
     password: str
@@ -41,3 +41,8 @@ class ArticleDisplay(BaseModel):
     user: User
     class Config():
         orm_mode = True
+
+class ProductBase(BaseModel):
+    title: str
+    description: str
+    price: float
